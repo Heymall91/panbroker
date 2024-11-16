@@ -89,7 +89,7 @@ const scrollTop = function () {
       setTimeout(function () {
         window.scrollTo(0, window.scrollY - 5000);
         scrollWindow();
-      }, 10);
+      }, 1);
     }
   };
   scrollBtn.addEventListener("click", scrollWindow);
