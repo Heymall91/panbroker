@@ -774,6 +774,12 @@ footer {
             color: var(--back-one);
         }
 
+        >a {
+            cursor: pointer;
+            font-size: 12px;
+            color: var(--back-one);
+        }
+
     }
 
 }
