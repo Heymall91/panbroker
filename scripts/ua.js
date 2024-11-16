@@ -178,7 +178,7 @@ function ukrVersion() {
         </div>
         <div class="footer__sign">
           <span>${ua.footer.rights.general}</span>
-          <span>${ua.footer.rights.developedBy}</span>
+          <a href='https://github.com/Heymall91'>${ua.footer.rights.developedBy}</a>
         </div>
     `;
 }
