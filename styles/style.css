@@ -764,7 +764,7 @@ footer {
     }
 
     >.footer__sign {
-        margin-top: 8vh;
+        margin-top: 10vh;
 
         display: flex;
         justify-content: space-between;
