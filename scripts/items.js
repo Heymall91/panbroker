@@ -53,7 +53,7 @@ const mainHeaderLang = [
             },
             rights: {
                 general: "Пан Брокер 2024 &copy; All rights reserved",
-                developedBy: "Developed by"
+                developedBy: "Developed by Heymall"
             }
         }
     },
@@ -110,7 +110,7 @@ const mainHeaderLang = [
             },
             rights: {
                 general: "Пан Брокер 2024 &copy; Всі права захищені",
-                developedBy: "Вебсторінка написана"
+                developedBy: "Вебсторінка написана Heymall"
             }
         }
     }
