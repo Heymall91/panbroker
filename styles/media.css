@@ -295,6 +295,11 @@
                 color: var(--back-one);
             }
 
+            >a {
+                font-size: 8px;
+                color: var(--back-one);
+            }
+
         }
 
     }
