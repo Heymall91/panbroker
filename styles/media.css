@@ -1,0 +1,370 @@
+@media(min-width: 320px) and (max-width: 768px) {
+
+    /* header */
+
+    .wrapper {
+        padding: 0 20px;
+        overflow: hidden;
+    }
+
+    .header__output,
+    .lang__switch__sign {
+        display: none;
+    }
+
+    header {
+
+
+        >.wrapper {
+
+            >.header__block {
+
+
+                >.logo {
+
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+
+                    >.logo__text {
+                        text-transform: capitalize;
+                        font-family: "Imperial Script", cursive;
+                        font-size: clamp(1.2rem, 50%, 3rem);
+                    }
+
+                    > img {
+                        height: 70px;
+                        width: 70px;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .description__block {
+        justify-content: center;
+
+        >.description__title {
+            >h3 {
+                text-align: center;
+                font-size: 30px;
+                font-weight: 700;
+                color: var(--white);
+            }
+
+            >.right::before {
+                background-color: var(--back-one);
+                height: 4px;
+                width: 15%;
+                right: 50%;
+                bottom: -20px;
+                transform: translate(50%);
+            }
+        }
+    }
+
+    .burger__menu__list{
+
+        > li{
+            padding: 20px 0;
+            font-size: clamp(2em, -0.875rem + 8.333vw, 3rem);
+            font-weight: 700;
+        }
+    }
+
+    .about__us__block {
+
+        >.about__us__block__des {
+            display: block;
+            text-align: center;
+
+            >img {
+                width: 100%;
+            }
+
+            >.about__us__block__des__text {
+
+                >h3 {
+                    padding-top: 16px;
+                }
+
+                >h3::before {
+                    transform: translate(50%);
+                    right: 50%;
+                }
+            }
+        }
+
+        >.second {
+            display: flex;
+            flex-direction: column-reverse;
+
+            >.about__us__block__des__text {
+                >h3::before {
+                    transform: translate(-50%);
+                    left: 50%;
+                }
+
+                >.about__us__block__des__text__db__list {
+
+                    display: block;
+
+                    >#ports,
+                    #customs {
+                        >ul {
+                            >li {
+                                list-style-position: inside;
+                                text-align: center;
+                            }
+                        }
+                    }
+
+                    >#ports {
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+
+        }
+
+        >.slogan::after {
+            content: url('data:image/svg+xml,<svg fill="%23000000" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect id="Icons" x="-640" y="0" width="1280" height="800" style="fill:none;"></rect><g id="Icons1" serif:id="Icons"><g id="Strike"></g><g id="H1"></g><g id="H2"></g><g id="H3"></g><g id="list-ul"></g><g id="hamburger-1"></g><g id="hamburger-2"></g><g id="list-ol"></g><g id="list-task"></g><path id="quote-1" d="M27.194,12l0,8.025c-2.537,0.14 -4.458,0.603 -5.761,1.39c-1.304,0.787 -2.22,2.063 -2.749,3.829c-0.528,1.766 -0.793,4.292 -0.793,7.579l9.303,0l0,19.145l-19.081,0l0,-18.201c0,-7.518 1.612,-13.025 4.836,-16.522c3.225,-3.497 7.973,-5.245 14.245,-5.245Zm28.806,0l0,8.025c-2.537,0.14 -4.457,0.586 -5.761,1.338c-1.304,0.751 -2.247,2.028 -2.828,3.829c-0.581,1.8 -0.872,4.344 -0.872,7.631l9.461,0l0,19.145l-19.186,0l0,-18.201c0,-7.518 1.603,-13.025 4.809,-16.522c3.207,-3.497 7.999,-5.245 14.377,-5.245Z" style="fill-rule:nonzero;"></path><g id="trash"></g><g id="vertical-menu"></g><g id="horizontal-menu"></g><g id="sidebar-2"></g><g id="Pen"></g><g id="Pen1" serif:id="Pen"></g><g id="clock"></g><g id="external-link"></g><g id="hr"></g><g id="info"></g><g id="warning"></g><g id="plus-circle"></g><g id="minus-circle"></g><g id="vue"></g><g id="cog"></g><g id="logo"></g><g id="radio-check"></g><g id="eye-slash"></g><g id="eye"></g><g id="toggle-off"></g><g id="shredder"></g><g id="spinner--loading--dots-" serif:id="spinner [loading, dots]"></g><g id="react"></g><g id="check-selected"></g><g id="turn-off"></g><g id="code-block"></g><g id="user"></g><g id="coffee-bean"></g><g id="coffee-beans"><g id="coffee-bean1" serif:id="coffee-bean"></g></g><g id="coffee-bean-filled"></g><g id="coffee-beans-filled"><g id="coffee-bean2" serif:id="coffee-bean"></g></g><g id="clipboard"></g><g id="clipboard-paste"></g><g id="clipboard-copy"></g><g id="Layer1"></g></g></g></svg>');
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            opacity: 0.4;
+        }
+
+    }
+
+    .requires__block {
+        padding: 48px 0;
+
+        >.requires__block__des {
+
+            justify-self: center;
+
+            >.requires__block__des__text {
+
+                >h3 {
+                    font-size: 24px;
+                    font-weight: 600;
+                    text-align: center;
+                    border-radius: 20px;
+                    outline: 2px solid var(--back-two);
+                    background-color: rgba(255, 211, 148, 0.5);
+                    padding: 20px;
+                    color: var(--white);
+                }
+
+                >h3::before {
+                    right: 50%;
+                    transform: translate(50%);
+                }
+
+                >.requires__block__ol {
+
+                    >.requires__block__li {
+                        font-size: 14px;
+                        font-style: italic;
+                        color: var(--white);
+                        padding: 10px;
+                        list-style: decimal;
+                        list-style-position: inside;
+                        text-align: center;
+
+                        &:hover {
+                            filter: drop-shadow(5px 2px 16px var(--black));
+                            text-decoration: underline;
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    .follow__block {
+        padding: 48px 0;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+
+        >h3 {
+            font-size: 24px;
+            font-weight: 700;
+
+            &::before {
+                height: 4px;
+                width: 15%;
+                bottom: -20px;
+            }
+        }
+
+
+        >.follow__link {
+
+            >a {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                >p {
+                    margin-top: 5px;
+                    font-size: 14px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+
+                &:hover {
+                    transform: translateY(-5px);
+                }
+            }
+        }
+    }
+
+    .contacts__block {
+        padding: 48px 0;
+        display: flex;
+        align-items: center;
+
+
+        >.contacts__block__form {
+            background-color: var(--back-one);
+            opacity: 0.8;
+            border-radius: 20px;
+            box-shadow: 2px 10px 30px var(--black);
+            outline: 2px solid var(--back-two);
+            text-align: center;
+            padding: 20px 10px;
+
+
+            #center {
+                font-size: 16px;
+            }
+
+            >input {
+                border: none;
+                border-radius: 15px;
+                cursor: pointer;
+                margin: 5px 0;
+                padding: 10px;
+                width: 75%;
+                caret-color: var(--black);
+
+
+                &::placeholder {
+                    font-size: 12px;
+                }
+
+                &:user-invalid {
+                    border: 1px solid var(--red);
+                }
+
+                &:focus {
+                    font-style: italic;
+                    outline: 1px solid var(--back-two);
+                    box-shadow: 2px 1px 16px var(--black);
+
+                    &::placeholder {
+                        font-size: 12px;
+                        font-style: italic;
+                    }
+                }
+            }
+
+            >.contacts__block__form__btn {
+                width: 45%;
+            }
+
+        }
+
+    }
+
+    .footer__block {
+
+        >.footer__sign {
+
+            >span {
+                font-size: 8px;
+                color: var(--back-one);
+            }
+
+        }
+
+    }
+
+}
+
+
+@media(min-width: 769px) and (max-width: 1280px) {
+
+    .wrapper{
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    .contacts__block {
+        padding: 48px 0;
+        display: flex;
+
+
+        >.contacts__block__form {
+            background-color: var(--back-one);
+            opacity: 0.8;
+            border-radius: 20px;
+            box-shadow: 2px 10px 30px var(--black);
+            outline: 2px solid var(--back-two);
+            text-align: center;
+            padding: 20px 0px;
+
+            > #center{
+                padding: 0 10px;
+            }
+        }
+
+    }
+
+    .about__us__block {
+
+        >.second {
+
+            >.about__us__block__des__text {
+                >h3::before {
+                    transform: translate(0);
+                    left: 0;
+                }
+
+                >.about__us__block__des__text__db__list {
+
+                    >#ports,
+                    #customs {
+                        >ul {
+                            >li {
+
+                                font-size: 12px;
+                            }
+                        }
+                    }
+
+                    >#ports {
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+
+        }
+    } 
+
+}
+
+@media(min-width: 769px){
+    .header__burger__menu {
+        display: none;
+    }
+}
