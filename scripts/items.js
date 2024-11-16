@@ -6,7 +6,7 @@ const mainHeaderLang = [
         aboutUsDes: 'Our activity is aimed at familiarizing agricultural producers with the current purchase prices of leading Ukrainian companies and foreign buyers, as well as helping them to conclude deals on the best terms, taking into account the wishes of sellers. A team of experienced brokers is working to find the best prices and conditions for you.',
         aboutUsBlock: {
             aboutUsHFirst: 'About Us',
-            aboutUsDesFirst: 'Our activity is aimed at familiarizing agricultural producers with<br>the current purchase prices of <i>leading</i> Ukrainianх<br>companies and foreign buyers, as well as helping them <br><i>to conclude</i> deals on the best terms, taking into account the wishes of<br>sellers.<br><br>A team of <b>experienced</b> brokers is working to find the best prices<br> and conditions for you.',
+            aboutUsDesFirst: 'Our activity is aimed at familiarizing agricultural producers with<br>the current purchase prices of <i>leading</i> Ukrainian<br>companies and foreign buyers, as well as helping them <br><i>to conclude</i> deals on the best terms, taking into account the wishes of<br>sellers.<br><br>A team of <b>experienced</b> brokers is working to find the best prices<br> and conditions for you.',
             aboutUsHSecond: 'Our goal',
             aboutUsDesSecond: 'The company is focused on finding <i>sustainable</i> long-term partnership on<i>mutually beneficial</i> terms. We are able to<br>ensure the highest quality of services and transparency<br>of transactions.<br><br>',
             aboutUsHThird: "Offers",
