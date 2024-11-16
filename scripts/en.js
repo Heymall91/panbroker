@@ -180,7 +180,7 @@ burgerMenuHeader.innerHTML = `
     </div>
     <div class="footer__sign">
       <span>${en.footer.rights.general}</span>
-      <span>${en.footer.rights.developedBy}</span>
+      <a href='https://github.com/Heymall91'>${en.footer.rights.developedBy}</a>
     </div>
 `;
 }
