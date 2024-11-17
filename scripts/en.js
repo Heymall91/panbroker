@@ -53,7 +53,7 @@ burgerMenuHeader.innerHTML = `
   // aboutUs block EN
 
   aboutUs.innerHTML = `
-  <div class="about__us__block__des" data-aos="fade-down" data-aos-duration="1250">
+  <div class="about__us__block__des first" data-aos="fade-down" data-aos-duration="1250">
                 <img src="./img/stocks/wheat-on-the-table-with-golden-coins.jpg" alt="">
                 <div class="about__us__block__des__text">
                     <h3>${en.aboutUsBlock.aboutUsHFirst}</h3>
@@ -67,16 +67,40 @@ burgerMenuHeader.innerHTML = `
                 </div>
                 <img src="./img/stocks/handshake.jpg" alt="">
             </div>
-            <div class="about__us__block__des" data-aos="fade-right" data-aos-duration="1250">
-                <img src="./img/stocks/wheat-graines--corn-graines--soy--canola--barley-o.jpg" alt="">
-                <div class="about__us__block__des__text">
-                    <h3 id="center">${en.aboutUsBlock.aboutUsHThird}</h3>
-                    <p class="center">${en.aboutUsBlock.aboutUsDesThird}</p>
-                    <ul id="grains">
-                    ${en.aboutUsBlock.aboutUsLiThird}
-                    </ul>
+            <div class="about__us__block__des" id="about__us__offer" data-aos="fade-left" data-aos-duration="1250">
+                   <div class="about__us__block__des__text">
+                        <h3 id="center">${en.aboutUsBlock.aboutUsHThird}</h3>
+                        <p class="center">${en.aboutUsBlock.aboutUsDesThird}</p>
+                        <div id="grains">
+                          <div class='grains__list'>
+                            <div class='grains__list__item' data-aos="fade-up" data-aos-duration="1250">
+                              <img src="${en.aboutUsBlock.aboutUsLiThird.wheat.img}" alt='wheat'>
+                              <h4>${en.aboutUsBlock.aboutUsLiThird.wheat.item}</h4>
+                            </div>
+                            <div class='grains__list__item' data-aos="fade-down" data-aos-duration="1250">
+                              <img src="${en.aboutUsBlock.aboutUsLiThird.barley.img}" alt='barley'>
+                              <h4>${en.aboutUsBlock.aboutUsLiThird.barley.item}</h4>
+                            </div>
+                            <div class='grains__list__item' data-aos="fade-up" data-aos-duration="1250">
+                              <img src="${en.aboutUsBlock.aboutUsLiThird.sunSeeds.img}" alt='sunseeds'>
+                              <h4>${en.aboutUsBlock.aboutUsLiThird.sunSeeds.item}</h4>
+                            </div>
+                            <div class='grains__list__item' data-aos="fade-down" data-aos-duration="1250">
+                              <img src="${en.aboutUsBlock.aboutUsLiThird.corn.img}" alt='corn'>
+                              <h4>${en.aboutUsBlock.aboutUsLiThird.corn.item}</h4>
+                            </div>
+                            <div class='grains__list__item' data-aos="fade-up" data-aos-duration="1250">
+                              <img src="${en.aboutUsBlock.aboutUsLiThird.soya.img}" alt='soya'>
+                              <h4>${en.aboutUsBlock.aboutUsLiThird.soya.item}</h4>
+                            </div>
+                            <div class='grains__list__item' data-aos="fade-down" data-aos-duration="1250">
+                              <img src="${en.aboutUsBlock.aboutUsLiThird.rapeseed.img}" alt='rapeseed'>
+                              <h4>${en.aboutUsBlock.aboutUsLiThird.rapeseed.item}</h4>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
             <div class="about__us__block__des second" data-aos="fade-left" data-aos-duration="1250">
                 <div class="about__us__block__des__text">
                     <h3>${en.aboutUsBlock.aboutUsHFourth}</h3>
@@ -84,9 +108,6 @@ burgerMenuHeader.innerHTML = `
                     <div class="about__us__block__des__text__db__list">
                         <div id="ports" data-aos="fade-up" data-aos-duration="1250">
                         ${en.aboutUsBlock.aboutUsLiFourthOne}
-                        </div>
-                        <div id="customs" data-aos="fade-down" data-aos-duration="1250">
-                        ${en.aboutUsBlock.aboutUsLiFourthTwo}
                         </div>
                     </div>
                 </div>

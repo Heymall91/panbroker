@@ -44,7 +44,7 @@ function ukrVersion() {
   // aboutUs block UA
 
   aboutUs.innerHTML = `
-      <div class="about__us__block__des" data-aos="fade-down" data-aos-duration="1250">
+      <div class="about__us__block__des first" data-aos="fade-down" data-aos-duration="1250">
                     <img src="./img/stocks/wheat-on-the-table-with-golden-coins.jpg" alt="">
                     <div class="about__us__block__des__text">
                         <h3>${ua.aboutUsBlock.aboutUsHFirst}</h3>
@@ -58,14 +58,38 @@ function ukrVersion() {
                     </div>
                     <img src="./img/stocks/handshake.jpg" alt="">
                 </div>
-                <div class="about__us__block__des" data-aos="fade-left" data-aos-duration="1250">
-                    <img src="./img/stocks/wheat-graines--corn-graines--soy--canola--barley-o.jpg" alt="">
+                <div class="about__us__block__des" id="about__us__offer" data-aos="fade-up" data-aos-duration="1250">
                     <div class="about__us__block__des__text">
                         <h3 id="center">${ua.aboutUsBlock.aboutUsHThird}</h3>
                         <p class="center">${ua.aboutUsBlock.aboutUsDesThird}</p>
-                        <ul id="grains">
-                        ${ua.aboutUsBlock.aboutUsLiThird}
-                        </ul>
+                        <div id="grains">
+                          <div class='grains__list'>
+                            <div class='grains__list__item' data-aos="fade-up" data-aos-duration="1250">
+                              <img src="${ua.aboutUsBlock.aboutUsLiThird.wheat.img}" alt='wheat'>
+                              <h4>${ua.aboutUsBlock.aboutUsLiThird.wheat.item}</h4>
+                            </div>
+                            <div class='grains__list__item' data-aos="fade-down" data-aos-duration="1250">
+                              <img src="${ua.aboutUsBlock.aboutUsLiThird.barley.img}" alt='barley'>
+                              <h4>${ua.aboutUsBlock.aboutUsLiThird.barley.item}</h4>
+                            </div>
+                            <div class='grains__list__item' data-aos="fade-up" data-aos-duration="1250">
+                              <img src="${ua.aboutUsBlock.aboutUsLiThird.sunSeeds.img}" alt='sunseeds'>
+                              <h4>${ua.aboutUsBlock.aboutUsLiThird.sunSeeds.item}</h4>
+                            </div>
+                            <div class='grains__list__item' data-aos="fade-down" data-aos-duration="1250">
+                              <img src="${ua.aboutUsBlock.aboutUsLiThird.corn.img}" alt='corn'>
+                              <h4>${ua.aboutUsBlock.aboutUsLiThird.corn.item}</h4>
+                            </div>
+                            <div class='grains__list__item' data-aos="fade-up" data-aos-duration="1250">
+                              <img src="${ua.aboutUsBlock.aboutUsLiThird.soya.img}" alt='soya'>
+                              <h4>${ua.aboutUsBlock.aboutUsLiThird.soya.item}</h4>
+                            </div>
+                            <div class='grains__list__item' data-aos="fade-down" data-aos-duration="1250">
+                              <img src="${ua.aboutUsBlock.aboutUsLiThird.rapeseed.img}" alt='rapeseed'>
+                              <h4>${ua.aboutUsBlock.aboutUsLiThird.rapeseed.item}</h4>
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
                 <div class="about__us__block__des second" data-aos="fade-right" data-aos-duration="1250">
@@ -75,9 +99,6 @@ function ukrVersion() {
                         <div class="about__us__block__des__text__db__list">
                             <div id="ports" data-aos="fade-up" data-aos-duration="1250">
                             ${ua.aboutUsBlock.aboutUsLiFourthOne}
-                            </div>
-                            <div id="customs" data-aos="fade-down" data-aos-duration="1250">
-                            ${ua.aboutUsBlock.aboutUsLiFourthTwo}
                             </div>
                         </div>
                     </div>

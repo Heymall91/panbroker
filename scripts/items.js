@@ -8,14 +8,38 @@ const mainHeaderLang = [
             aboutUsHFirst: 'About Us',
             aboutUsDesFirst: 'Our activity is aimed at familiarizing agricultural producers with<br>the current purchase prices of <i>leading</i> Ukrainian<br>companies and foreign buyers, as well as helping them <br><i>to conclude</i> deals on the best terms, taking into account the wishes of<br>sellers.<br><br>A team of <b>experienced</b> brokers is working to find the best prices<br> and conditions for you.',
             aboutUsHSecond: 'Our goal',
-            aboutUsDesSecond: 'The company is focused on finding <i>sustainable</i> long-term partnership on<i>mutually beneficial</i> terms. We are able to<br>ensure the highest quality of services and transparency<br>of transactions.<br><br>',
+            aboutUsDesSecond: 'The company is focused on finding <i>sustainable</i> long-term partnership on <i>mutually beneficial</i> terms. We are able to<br>ensure the highest quality of services and transparency<br>of transactions.<br><br>',
             aboutUsHThird: "Offers",
             aboutUsDesThird: 'With <i>Пан Брокер</i>  the supplier has the opportunity to make a deal for<br><b>the following</b> crops:<br></br>',
-            aboutUsLiThird: '<li><i>wheat</i></li><li><i>barley</i></li><li><i>rapeseed (non-GMO)</i></li><li><i>sunflower</i></li><li><i>corn</i></li><li><i>soya (GMO, non-GMO)</i></li><li><i>fodder (protein less than 10.5%)</i></li>',
+            aboutUsLiThird: {
+                wheat: {
+                    item: 'Wheat',
+                    img: './img/stocks/wheat.jpg'
+                },
+                barley: {
+                    item: 'Barley',
+                    img: './img/stocks/barley.jpg'                
+                },
+                sunSeeds: {
+                    item: 'Sunflower',
+                    img: './img/stocks/sunflowerSeeds.jpg'
+                },
+                corn:{ 
+                    item: 'Corn',
+                    img: './img/stocks/corn.jpg'
+                },
+                soya: {
+                    item: 'Soya',
+                    img: './img/stocks/soya.jpg'
+                },
+                rapeseed: {
+                    item: 'Rapeseed',
+                    img: './img/stocks/rapeseed.jpg'
+                }
+            },
             aboutUsHFourth: "Logistics",
-            aboutUsDesFourth: "Raw materials are transported/sold through the following ports and terminals:<br><br>",
-            aboutUsLiFourthOne: "Ports:<br><ul><li>Southern;</li><li>Odesa;</li><li>Chornomorsk;</li><li>Danube</li></ul>",
-            aboutUsLiFourthTwo: "Terminals and CPT:<br><ul><li>Vadul Siret, Chop;</li><li>Kyiv, Lviv dists..;</li><li>Ternopil, Kropyvnytskyi, Bila Tserkva</li><li>Mostytska, Reni</li></ul>"
+            aboutUsDesFourth: "Transportation and delivery of raw materials is carried out by<br> means of trucks and railway on FCA/DAP/CPT terms.<br><br>",
+            aboutUsLiFourthOne: "<b>Main directions:</b><br><ul><li>Black Sea ports</li><li>Danube ports</li><li>Western border of Ukraine</li><li>Domestic market of Ukraine</li></ul>"
         },
         slogan: "Let's make a deal together!",
         contacts: 'Contact',
@@ -63,16 +87,40 @@ const mainHeaderLang = [
         aboutUs: 'Про нас',
         aboutUsBlock: {
             aboutUsHFirst: 'Про нас',
-            aboutUsDesFirst: '<b>Пан Брокер</b> має на меті ознайомлення агровиробників з<br>актуальними закупівельними цінами <i>провідних</i> українських<br>компаній та покупців з-за кордону, а також для допомоги в<br><i>укладанні</i> угод на найкращих умовах, враховуючи побажання<br>продавців.<br><br>Над пошуком кращих цін та умов для Вас працює ціла команда<br><b>досвідчених</b> брокерів.',
+            aboutUsDesFirst: '<b>Пан Брокер</b> ознайомлює агровиробників з актуальними закупівельними<br> цінами провідних українських компаній та покупців з-за кордону, а також допомагає в укладанні угод на найкращих умовах.<br><br>Над пошуком кращих цін та умов для Вас працює ціла команда<br><b>досвідчених</b> брокерів.',
             aboutUsHSecond: 'Наша мета',
-            aboutUsDesSecond: 'Компанія націлена на пошук <i>сталих</i> клієнтів та<br>довгострокове партнерство на <i>взаїмовигідних</i> умовах. Ми здатні<br>забезпечити найвищу якість надаваних послуг та прозорість<br>укладаних угод.<br><br>',
+            aboutUsDesSecond: 'Компанія націлена на пошук <i>сталих</i> клієнтів та<br>довгострокове партнерство на <i>взаємовигідних</i> умовах. Ми здатні<br>забезпечити найвищу якість надаваних послуг та прозорість<br>укладаних угод.<br><br>',
             aboutUsHThird: "Пропозиції",
-            aboutUsDesThird: 'З <i>Пан Брокер</i> постачальнику є можливість укласти угоду на<br><b>наступні</b> сільськогосподарські культури:<br></br>',
-            aboutUsLiThird: '<li><i>пшениця</i></li><li><i>ячмінь</i></li><li><i>ріпак(не ГМО)</i></li><li><i>соняшник</i></li><li><i>кукурудза</i></li><li><i>соя(ГМО, не ГМО)</i></li><li><i>фураж(білок менше 10.5%)</i></li>',
+            aboutUsDesThird: '<i>Пан Брокер</i> допоможе укласти угоду на <b>наступні</b> сільськогосподарські культури:<br></br>',
+            aboutUsLiThird: {
+                wheat: {
+                    item: 'Пшениця',
+                    img: './img/stocks/wheat.jpg'
+                },
+                barley: {
+                    item: 'Ячмінь',
+                    img: './img/stocks/barley.jpg'                
+                },
+                sunSeeds: {
+                    item: 'Соняшник',
+                    img: './img/stocks/sunflowerSeeds.jpg'
+                },
+                corn:{ 
+                    item: 'Кукурудза',
+                    img: './img/stocks/corn.jpg'
+                },
+                soya: {
+                    item: 'Соя',
+                    img: './img/stocks/soya.jpg'
+                },
+                rapeseed: {
+                    item: 'Ріпак',
+                    img: './img/stocks/rapeseed.jpg'
+                }
+            },
             aboutUsHFourth: "Логістика",
-            aboutUsDesFourth: "Транспорт/збут сировини відбувається через наступні порти та термінали:<br><br>",
-            aboutUsLiFourthOne: "Порти:<br><ul><li>Південний;</li><li>Одеса;</li><li>Чорноморськ;</li><li>Дунай</li></ul>",
-            aboutUsLiFourthTwo: "Термінали та СРТ:<br><ul><li>Вадул-Сірет, Чоп;</li><li>Київська, Львівська обл-ті;</li><li>Тернопіль, Кропивницький, Біла Церква</li><li>Мостиська, Рені</li></ul>"
+            aboutUsDesFourth: "Транспортування та достава сировини відбувається за допомогою<br> вантажівок та ЗД транспорту на умовах FCA/DAP/CPT.<br><br>",
+            aboutUsLiFourthOne: "<b>Головні напрямки:</b><br><ul><li>Чорноморські порти;</li><li>Дунайські порти;</li><li>Західний кордон України;</li><li>Внутрішній ринок України</li></ul>",
         },
         slogan: "Почнімо робити бізнес разом!",
         contacts: 'Контакт',
@@ -110,7 +158,7 @@ const mainHeaderLang = [
             },
             rights: {
                 general: "Пан Брокер 2024 &copy; Всі права захищені",
-                developedBy: "Вебсторінка написана Heymall"
+                developedBy: "Вебсторінку написав Heymall"
             }
         }
     }
