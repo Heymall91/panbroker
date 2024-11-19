@@ -196,7 +196,7 @@ burgerMenuHeader.innerHTML = `
         </ul>
       </div>
       <div class="footer__contact">
-        <a href="tel:+38096 870 6477">+38 096 870 6477</a>
+        <a href="tel:+38096 870 6477">+38 000 000 0000</a>
       </div>
     </div>
     <div class="footer__sign">
