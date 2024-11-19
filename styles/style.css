@@ -451,6 +451,7 @@ header {
                     grid-column-gap: 6vw;
                     grid-row-gap: 4vh;
 
+
                     > .grains__list__item{
 
                         text-align: center;
@@ -459,8 +460,13 @@ header {
                             object-fit: cover;
                             border: 4px solid var(--back-two);
                             border-radius: 50%;
+                            cursor: pointer;
                             height: 200px;
                             width: 200px;
+                        }
+
+                        > img:hover{
+                            transform: translateY(-10px);
                         }
 
                         > h4{
